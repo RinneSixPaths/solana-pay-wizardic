@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Degradation curse",
+    "price": "0.09",
+    "description": "Get this prohibitet spells for only $0.09! Includes 4 degradated results: Slytherin Scum, Wise Professor, Hygrid's Fury and Harry's Best Friend!",
+    "image_url": "https://www.meme-arsenal.com/memes/cf339e1cd20a6c071bf9ff4229e06547.jpg",
+    "filename": "degradation-curse.zip",
+    "hash": "QmZgg8URHjTiyEN7tHsHSxHDYBxC7ZND5ox5dwGgCkDLtA"
+  },
+  {
+    "id": 2,
+    "name": "Cat powerful spells",
+    "price": "0.09",
+    "description": "Get this prohibitet spells for only $0.09! Includes: Cat Pet, Cat Wand, Illusion Spell and Cat Curse!",
+    "image_url": "https://i.imgur.com/tAQ00An.jpeg",
+    "filename": "Emojis.zip",
+    "hash": "QmNbBq9s3tukPm7AobqiVqb1Vqo7P9srBUxhnZszyESf8B"
+  },
+  {
+    "id": 3,
+    "name": "Asian ancient magic",
+    "price": "0.09",
+    "description": "Get this prohibitet spells for only $0.09! Includes 3 Asians: Sushi Wizard, Hermione San Granger and Asian Gendalf!",
+    "image_url": "https://i.imgur.com/MJni0Ur.png",
+    "filename": "Emojis.zip",
+    "hash": "Qmcyw57CHXEhsXvAEbjyEcoEBQE5t4XsP3ZbNVccxYF7jY"
+  }
+]
