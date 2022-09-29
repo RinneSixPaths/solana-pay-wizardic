@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import HeadComponent from '../components/Head';
-import { PublicKey } from '@solana/web3.js';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+import CreateProduct from "../components/CreateProduct";
 
 import Product from "../components/Product";
 
@@ -13,7 +13,8 @@ import Product from "../components/Product";
 const App = () => {
   // This will fetch the users' public key (wallet address) from any wallet we support
   const { publicKey } = useWallet();
-
+  const isOwner = ( publicKey ? publicKey.toString() === process.env.NEXT_PUBLIC_OWNER_PUBLIC_KEY : false );
+  const [creating, setCreating] = useState(false);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -51,10 +52,17 @@ const App = () => {
       <div className="container">
         <header className="header-container">
           <p className="header"> 😳 Wizarding Black Market 🧙🏿‍♂️</p>
-          <p className="sub-text">The only wands store thast accepts magic beans</p>
+          <p className="sub-text">The only wands store that accepts magic beans</p>
+
+          {isOwner && (
+            <button className="create-product-button" onClick={() => setCreating(!creating)}>
+              {creating ? "Close" : "Create Product"}
+            </button>
+          )}
         </header>
 
         <main>
+          {creating && <CreateProduct />}
           {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
         </main>
 

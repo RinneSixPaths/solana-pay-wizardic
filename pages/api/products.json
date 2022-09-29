@@ -24,6 +24,15 @@
     "description": "Get this prohibitet spells for only $0.09! Includes 3 Asians: Sushi Wizard, Hermione San Granger and Asian Gendalf!",
     "image_url": "https://i.imgur.com/MJni0Ur.png",
     "filename": "Emojis.zip",
-    "hash": "Qmcyw57CHXEhsXvAEbjyEcoEBQE5t4XsP3ZbNVccxYF7jY"
+    "hash": "QmWowoyo61vXtgo4PsmBcdF5qA2yZGy1NNoSwSneGi96fj"
+  },
+  {
+    "id": 4,
+    "name": "Test Upload",
+    "price": "0.09",
+    "image_url": "https://icdn.lenta.ru/images/0000/0135/000001351786/pic_1358623397.jpg",
+    "description": "Test upload",
+    "filename": "test-upload.zip",
+    "hash": "QmUU7MQZQDjRAcgX8BuAwcpZSp88pW6wJTa2Wzj3yPEJjk"
   }
 ]
